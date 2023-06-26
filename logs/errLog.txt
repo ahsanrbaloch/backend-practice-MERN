@@ -1,0 +1,4 @@
+20230625	23:49:53	3e3b860a-1ec9-4ff0-b89e-c28bb7c6f102	Error: Not allowed by CORS
+20230626	01:46:59	cbdce15b-fef3-4bf5-889e-02278b09d40b	Error: ENOENT: no such file or directory, stat 'D:\Mern Stack\Node\node1\routes\views\new-page.html'
+20230626	01:47:14	352fc9ea-cd2a-463b-8231-4616fbd62309	Error: ENOENT: no such file or directory, stat 'D:\Mern Stack\Node\node1\routes\views\new-page.html'
+20230626	01:47:22	14478b2b-d5fd-4a56-a61a-aba7ba91c33e	Error: ENOENT: no such file or directory, stat 'D:\Mern Stack\Node\node1\routes\views\new-page.html'
