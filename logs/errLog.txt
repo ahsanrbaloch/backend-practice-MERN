@@ -2,3 +2,20 @@
 20230626	01:46:59	cbdce15b-fef3-4bf5-889e-02278b09d40b	Error: ENOENT: no such file or directory, stat 'D:\Mern Stack\Node\node1\routes\views\new-page.html'
 20230626	01:47:14	352fc9ea-cd2a-463b-8231-4616fbd62309	Error: ENOENT: no such file or directory, stat 'D:\Mern Stack\Node\node1\routes\views\new-page.html'
 20230626	01:47:22	14478b2b-d5fd-4a56-a61a-aba7ba91c33e	Error: ENOENT: no such file or directory, stat 'D:\Mern Stack\Node\node1\routes\views\new-page.html'
+20230626	20:50:41	de33ca2f-66b2-4fbf-88a1-81115771a8db	Error: Cannot set headers after they are sent to the client
+20230626	20:51:12	2252c20f-fbe2-4bf4-bfc3-050bb0bbdf63	Error: Cannot set headers after they are sent to the client
+20230626	20:52:44	85fb86b7-eddc-4f5f-9897-c140d1c09b7a	Error: Cannot set headers after they are sent to the client
+20230626	20:53:38	424d40ab-ced4-41e4-a4b0-7c99cda36096	Error: Cannot set headers after they are sent to the client
+20230626	20:53:59	33f61c24-ff23-471e-b535-314167e8bce6	Error: Cannot set headers after they are sent to the client
+20230626	20:55:29	0359b223-6090-4486-b4df-f2cb2b001ac0	Error: Cannot set headers after they are sent to the client
+20230626	20:57:39	b150a04f-e060-4fd1-8cd6-8449b91d1205	Error: Cannot set headers after they are sent to the client
+20230626	21:11:43	e703918b-be26-4e55-a6f8-452194f56d21	ReferenceError: unsortedArray is not defined
+20230627	22:50:09	e43af657-5047-4bb4-88b5-23fa710c9bf8	TypeError: Cannot read properties of undefined (reading 'username')
+20230627	22:56:14	9e5512bd-3f4c-4890-83dd-5f7c1cc4f85b	TypeError: Cannot read properties of undefined (reading 'username')
+20230627	22:57:37	ac6ecdc7-f8f1-43fc-97be-184e11229204	TypeError: Cannot read properties of undefined (reading 'username')
+20230627	23:01:44	2de3763c-9374-43fe-af32-b550139476aa	TypeError: Cannot read properties of undefined (reading 'username')
+20230627	23:05:13	2770ac83-a540-468a-a46f-500eb0a219f2	TypeError: Cannot read properties of undefined (reading 'username')
+20230627	23:08:02	7b9e3a63-7c6b-4a51-b06c-13c15e2481d6	TypeError: Cannot read properties of undefined (reading 'username')
+20230627	23:12:13	6c023384-5c6c-4648-b7c7-44ab8210dc99	TypeError: Cannot read properties of undefined (reading 'roles')
+20230627	23:15:29	9eba0a4b-5966-4073-97f7-57917bff98bd	Error: Cannot set headers after they are sent to the client
+20230627	23:21:25	53187417-adc9-424d-8335-8405f923b448	Error: Cannot set headers after they are sent to the client

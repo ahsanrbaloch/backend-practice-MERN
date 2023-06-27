@@ -22,23 +22,25 @@ const createNewEmployee=(req,res)=>{
 }
 
 const updateEmployee=(req,res)=>{
-    const employee=data.employees.find(emp => emp.id===parseInt(req.body.id));
+    const employee=data.employees.find(emp => emp.id === parseInt(req.body.id));
+
     if(!employee){
         return res.status(404).json({'message': 'No such id exists'});
     }
-    if(req.body.firstname)
-    {
-        employee.firstname=req.body.firstname;
-        employee.lastname=req.body.lastname;
-    }
-    const filteredEmployees=data.employees.filter(employee => employee.id!==req.body.id);
-    const unsortedEmployees=[...filteredEmployees, employee];
-    res.json(unsortedEmployees.sort((a,b)=> {
-        return a-b;
-    }));
-    res.json(data.employees);
+   
+    if (req.body.firstname) employee.firstname=req.body.firstname;
+    if (req.body.lastname) employee.lastname=req.body.lastname;
+    
+    const filteredEmployees=data.employees.filter(emp => emp.id!==parseInt(req.body.id));
 
+    const unsortedEmployees=[...filteredEmployees, employee];
+
+    data.setEmployees(unsortedEmployees.sort((a,b)=> a.id > b.id ? 1 : a.id < b.id ? -1 : 0));
+    res.json(data.employees);
 } 
+
+
+
 
 const deleteEmployee=(req,res)=>{
     const employee=data.employees.find(emp=>emp.id===req.body.id);
@@ -52,7 +54,7 @@ const deleteEmployee=(req,res)=>{
 }
 
 const getEmployee=(req,res)=>{
-    const employee=data.employees.find(emp=>emp.id===req.body.id);
+    const employee=data.employees.find(emp=>emp.id===parseInt(req.params.id));
     if(!employee)
     {
         return res.status(404).json({'message': 'No such id exists'});
