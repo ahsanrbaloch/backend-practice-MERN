@@ -35,4 +35,4 @@ I have learned and implemented the following things from this practice project:
 ✅ Async Crud Operations Using Mongoose Framwork
 
 ### Academic Honesty
-**DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiargism and adhere to the spirit of this 
+**DO NOT COPY FOR AN ASSIGNMENT** - Avoid plagiargism
